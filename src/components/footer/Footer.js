@@ -9,15 +9,12 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="column">
-          <div className="column-title">About Me</div>
+          <div className="column-title">Contact Me</div>
           <div className="social-handles">
-            <a href="https://twitter.com/yourhandle" target="_blank" rel="noopener noreferrer">
-              <img src={twitterLogo} alt="Twitter Logo" />
-            </a>
-            <a href="https://github.com/yourhandle" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/SrihithBansal" target="_blank" rel="noopener noreferrer">
               <img src={githubLogo} alt="GitHub Logo" />
             </a>
-            <a href="https://linkedin.com/in/yourhandle" target="_blank" rel="noopener noreferrer">
+            <a href="https://linkedin.com/in/srihith-bansal-959a50240" target="_blank" rel="noopener noreferrer">
               <img src={linkedinLogo} alt="LinkedIn Logo" />
             </a>
           </div>
@@ -25,7 +22,7 @@ const Footer = () => {
         <div className="column">
           <div className="column-title">Aim</div>
           <div className="aim">
-          <p>I am a second-year student at IT-Ropar, made these algorithms to help in the field of medical sciences.</p>
+          <p>I am a second-year student at IIT Ropar, made these algorithms to help in the field of medical sciences.</p>
           </div>
         </div>
       </div>
